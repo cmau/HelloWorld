@@ -11,7 +11,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<platform.version> 4.0.1.2
-			</platform.version>
+		</platform.version>
 		<android.plugin.version>3.6.0</android.plugin.version>
 	</properties>
 
@@ -43,10 +43,10 @@
 					<sdk>
 						<platform>14</platform>
 					</sdk>
-										<emulator>
+					<emulator>
 						<avd>Default</avd>
 					</emulator>
-									</configuration>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
