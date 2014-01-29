@@ -7,7 +7,8 @@ import android.view.Menu;
 
 public class HelloAndroidActivity extends Activity {
 
-    /**
+	
+	/**
      * Called when the activity is first created.
      * @param savedInstanceState If the activity is being re-initialized after 
      * previously being shut down then this Bundle contains the data it most 
@@ -22,7 +23,7 @@ public class HelloAndroidActivity extends Activity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 	// Inflate the menu; this adds items to the action bar if it is present.
-	getMenuInflater().inflate(no.headit.labs.android.R.menu.main, menu);
+	getMenuInflater().inflate(no.headit.labs.android.R.menu.menu_main, menu);
 	return true;
     }
 

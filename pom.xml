@@ -12,7 +12,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<platform.version> 4.0.1.2
 		</platform.version>
-		<android.plugin.version>3.6.0</android.plugin.version>
+		<android.plugin.version>3.0.0-alpha-13</android.plugin.version>
 	</properties>
 
 	<dependencies>
@@ -41,7 +41,7 @@
 				<artifactId>android-maven-plugin</artifactId>
 				<configuration>
 					<sdk>
-						<platform>14</platform>
+						<platform>${android-platform}</platform>
 					</sdk>
 					<emulator>
 						<avd>Default</avd>
